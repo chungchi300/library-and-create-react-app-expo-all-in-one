@@ -1,0 +1,18 @@
+0 silly argv { _: [ 'add' ],
+0 silly argv   scope: 'my-expo',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '3.16.4',
+0 silly argv   '$0': 'node_modules/.bin/lerna',
+0 silly argv   pkg: 'react-native-json-tree' }
+1 notice cli v3.16.4
+2 verbose rootPath /Users/jeffchung/work/library-and-create-react-app-expo-all-in-one
+3 info filter [ 'my-expo' ]
+4 error TypeError: Cannot read property 'split' of undefined
+4 error     at Minimatch.match (/Users/jeffchung/work/library-and-create-react-app-expo-all-in-one/node_modules/minimatch/minimatch.js:717:9)
+4 error     at /Users/jeffchung/work/library-and-create-react-app-expo-all-in-one/node_modules/minimatch/minimatch.js:691:15
+4 error     at Array.filter (<anonymous>)
+4 error     at Function.minimatch.match (/Users/jeffchung/work/library-and-create-react-app-expo-all-in-one/node_modules/minimatch/minimatch.js:690:15)
+4 error     at patterns.reduce (/Users/jeffchung/work/library-and-create-react-app-expo-all-in-one/node_modules/multimatch/index.js:23:33)
+4 error     at Array.reduce (<anonymous>)
+4 error     at module.exports (/Users/jeffchung/work/library-and-create-react-app-expo-all-in-one/node_modules/multimatch/index.js:15:18)
+4 error     at filterPackages (/Users/jeffchung/work/library-and-create-react-app-expo-all-in-one/node_modules/@lerna/filter-packages/filter-packages.js:44:28)

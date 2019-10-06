@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { testEs6, testSpreadOperator } from '@walnut/common/es6Export';
 import JSONTree from 'react-json-tree'
-const commonFunction = require("@walnut/common");
+
 
 
 
